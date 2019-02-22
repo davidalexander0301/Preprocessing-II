@@ -168,21 +168,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-* {
-  box-sizing: border-box;
-}
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px;
   padding: 0 100px 0 100px;
+  width: 100%;
+  background: blue;
 }
-.topnav {
+nav .topnav {
   justify-content: flex-end space-around;
   font-size: 16px;
 }
-.navtext {
+nav .navtext {
   text-decoration: none;
   color: black;
   padding: 20px;
@@ -239,8 +238,8 @@ nav {
   border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
+  background-color: blue;
 }
-.home .content-pick .destination {
-  width: 30%;
-  margin-bottom: 30px;
+.home .content-pick .destination .btn {
+  background: green;
 }
